@@ -1,0 +1,30 @@
+html {
+    background-color: #070707;
+}
+
+#gameContainer{
+    text-align: center;
+}
+
+#gameBoard{
+    border: 7px solid #E8EBF7;
+    background-color: #5FD75B;
+}
+
+#scoreText{
+    font-family: "Tilt Neon", sans-serif;
+    font-size: 100px;
+    color: #E8EBF7;
+}
+
+#resetBtn{
+    font-family: "Tilt Neon", sans-serif;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    border: 7px solid #EDCD5A;
+    border-radius: 25px;
+    background-color: #070707;
+    color: #E8EBF7;
+    cursor: pointer;
+}

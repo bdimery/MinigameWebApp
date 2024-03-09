@@ -1,0 +1,126 @@
+* {
+    background-color: #070707;
+    font-family: "Tilt Neon", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+}
+
+.games {
+    display: grid;
+    grid-template-columns: 500px 500px;  
+}
+
+.gameLink {
+    border: 5px solid #E8EBF7;
+    border-radius: 25px;
+    height: 350px;
+    margin: 20px 10px;
+    padding: 25px;
+}
+
+nav {
+    margin-bottom: 25px;
+}
+
+body {
+    color: #E8EBF7;
+    text-align: center;
+}
+
+h1 {
+    font-size: 75px;
+    border: 7px solid #50A9F7;
+    padding: 20px 75px;
+    border-radius: 25px;
+    margin: 25px 0px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+  }
+  
+li {
+    float: left;
+    border: 5px solid #E8EBF7;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    font-size: 20px;
+  }
+  
+li a {
+    display: block;
+    color: #50A9F7;
+    text-align: center;
+    text-decoration: none;
+  }
+
+li a:hover {
+    display: block;
+    color: #9ECFFA;
+    text-align: center;
+    text-decoration: none;
+  }
+
+h2 {
+    font-size: 50px;
+    color: #EDCD5A;
+  }
+
+h3 {
+    margin: 25px 0px;
+    font-size: 25px;
+    color: #59D554;
+}
+
+h6 {
+    font-size: 15px;
+    color: #E8EBF7;
+}
+
+footer {
+    margin: 25px 0px;
+}
+
+h1 {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+h6::before, h6::after {
+    background-color: #50A9F7;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    position: relative;
+    vertical-align: middle;
+    width: 30%;
+}
+  
+h6::before {
+    right: 1em;
+    margin-left: -50%;
+}
+  
+h6::after {
+    left: 1em;
+    margin-right: -50%;
+}
+
+.logo {
+    padding: 25px
+}
+
+.logo:hover {
+    color: #F5E3A3 !important;
+}
+
+p{
+    text-align: left;
+}
